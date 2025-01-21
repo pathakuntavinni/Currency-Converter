@@ -1,0 +1,108 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #fff;
+}
+
+.wrapper {
+    text-align: center;
+    background: rgba(49, 48, 48, 0.7);
+    padding: 30px;
+    max-width: 450px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(49, 48, 48, 0.5);
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.currency-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.currency-input label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.currency-input input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.select label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.select select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    cursor: pointer;
+    background: #ff7eb3;
+    color: #fff;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: #ff4b8b;
+}
+
+p.output {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #00ffab;
+    display: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
